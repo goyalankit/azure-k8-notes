@@ -6,3 +6,8 @@ az network vnet create -g angoyal-kubernetes \
   -n angoyal-kubernetes-net \
   --address-prefix 10.240.0.0/24 \
   --subnet-name angoyal-kubernetes-subnet
+
+# Create a nsg (network security group). Firewall for Vnet
+ network nsg create -g angoyal-kubernetes -n angoyal-kubernetes-nsg
+ 
+one can also create asg (application security groups), which can be used as a source or destination in nsg rules.
