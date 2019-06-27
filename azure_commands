@@ -1,0 +1,6 @@
+```
+# Create new resource group
+az group create --name angoyal-kubernetes -l eastus2
+
+# 
+```
