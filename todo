@@ -1,2 +1,5 @@
 - lb-address-pools
 - load balancers
+
+- etcd used kubernetes.pem
+- used ca.pem as the trusted ca
