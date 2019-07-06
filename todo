@@ -3,3 +3,8 @@
 
 - etcd used kubernetes.pem
 - used ca.pem as the trusted ca
+- RBAC and how to apply rules
+- what certs go where
+
+- azure network lb probes
+- azure network lb rules
