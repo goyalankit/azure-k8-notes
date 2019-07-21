@@ -8,5 +8,32 @@ IP Address and IP Subnet
 ------------------------
 Every resource that's accessible by network will have IP address. Ip address will reside in an IP Subnet.
 
-IP Subnet is something we explicitely create in Azure.
+- IP Subnet is something we explicitely create in Azure.
+
+### Virtual Network
+- IP Subnets are organized in a virtual network.
+- One or more virtual network and each virtual network could contain one or more subnets.
+
+### Virtual network gateway
+- Virtual networks can access each other and be connected to on-premise solution using virtual network gateway.
+
+### Load balancer 
+- external to internal communication 
+- Load Balancers can be used to balance load.
+
+# Virtual Private Network
+- a secure connection to a networking env through an unsecure connection. 
+- Users need to access their resources, they need to go through VPN.
+
+Two kind of VPNs
+-----------------
+----- Site to Site VPN
+----- Point to Site VPN.
+
+Express Route Circuit
+---------------------
+Dedicated Network Link
+- Private: on premise datacenter to azure dedicated physical link. Supported telecom provider provides the link.
+- Public: 
+- Microsoft: office 365 subscription. Ex: dedicated link between office 365 and azure.
 
