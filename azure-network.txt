@@ -37,3 +37,7 @@ Dedicated Network Link
 - Public: 
 - Microsoft: office 365 subscription. Ex: dedicated link between office 365 and azure.
 
+Virtual Network accessible from Internet
+----------------------------------------
+We'll need to create a public IP Adress.
+
