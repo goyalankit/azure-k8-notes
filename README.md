@@ -10,4 +10,3 @@ Note: For those platforms that support Pods running in the host network (e.g. Li
 Once can set networking policies as well using kubernetes:
 https://kubernetes.io/docs/concepts/services-networking/network-policies/
 
-
